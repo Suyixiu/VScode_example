@@ -11,7 +11,7 @@
                 "C:/software/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include",
                 "C:/software/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed",
                 "C:/software/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include",
-                "C:\\Users\\Suyixiu\\Desktop\\test"
+                "C:\\Users\\Su\\Desktop\\VScode\\vscode_test\\inc"
             ],
             "defines": [
                 "_DEBUG",
@@ -28,7 +28,7 @@
                     "C:/software/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include",
                     "C:/software/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed",
                     "C:/software/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include",
-                    "C:\\Users\\Suyixiu\\Desktop\\test"
+                    "C:\\Users\\Su\\Desktop\\VScode\\vscode_test\\inc"
                 ],
                 "limitSymbolsToIncludedHeaders": true,
                 "databaseFilename": ""
