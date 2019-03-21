@@ -4,14 +4,14 @@
             "name": "Win32",
             "intelliSenseMode": "clang-x64",
             "includePath": [
-                "{workspaceFolder}",
+                "${workspaceFolder}",
                 "C:/software/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++",
                 "C:/software/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32",
                 "C:/software/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward",
                 "C:/software/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include",
                 "C:/software/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed",
                 "C:/software/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include",
-                "C:\\Users\\Su\\Desktop\\VScode\\vscode_test\\inc"
+                "C:\\Users\\Su\\Desktop\\VScode\\VScode_sample\\sample1\\inc"
             ],
             "defines": [
                 "_DEBUG",
@@ -21,14 +21,14 @@
             ],
             "browse": {
                 "path": [
-                    "{workspaceFolder}",
+                    "${workspaceFolder}",
                     "C:/software/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++",
                     "C:/software/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32",
                     "C:/software/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward",
                     "C:/software/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include",
                     "C:/software/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed",
                     "C:/software/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include",
-                    "C:\\Users\\Su\\Desktop\\VScode\\vscode_test\\inc"
+                    "C:\\Users\\Su\\Desktop\\VScode\\VScode_sample\\sample1\\inc"
                 ],
                 "limitSymbolsToIncludedHeaders": true,
                 "databaseFilename": ""
