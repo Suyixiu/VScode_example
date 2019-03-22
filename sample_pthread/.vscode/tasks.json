@@ -4,9 +4,10 @@
     "args": [                                                                       // 编译命令参数
         "-g","main.cpp","${workspaceFolder}/src/*.cpp",
         "-o","${fileBasenameNoExtension}.exe",
-        "-I","${workspaceFolder}/inc",                                              //-I是头文件路径
+        "-I","${workspaceFolder}/inc",                                              //-I头文件路径
         "-I","${workspaceFolder}/load_h",
-        "-lpthread"                                                                 //-l是头文件路径
+        "-L","${workspaceFolder}/load_dll",                                         //-L动态库
+        "-lpthreadVC2"                                                              //-l静态链接库
         ],
     "problemMatcher": {
         "owner": "cpp",
