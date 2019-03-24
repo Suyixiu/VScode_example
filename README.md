@@ -1,6 +1,6 @@
 # VScode_sample  
 这就是一个Vscode建立工程的sample吧  
-目前包含4个sample。其中normal，opencv_mingw，pthread都是用mingw的g++或gcc弄的  
+目前包含3个sample。其中normal，opencv_mingw，pthread都是用mingw的g++或gcc弄的  
 
 ## 此外  
 我使用的是mingw8.1，posix的Threads，如果不是这个的话会很多坑的，真是日了狗了  
