@@ -10,9 +10,9 @@
 ## 此外  
 我使用的是mingw8.1，posix的Threads，如果不是这个的话会很多坑的，真是日了狗了  
 你可以使用gcc -v -E -x c++ -来看你的MinGW的全部安装目录  
-可能用到的链接，非常感谢两位大佬的博客  
+可能用到的链接，非常感谢各位大佬的博客  
 [MinGW.md](https://github.com/Microsoft/vscode-cpptools/blob/8979a6e6b348efd23b97037151d8968915f9fea0/Documentation/LanguageServer/MinGW.md)  
 [G++常用命令1](https://blog.csdn.net/lcuwb/article/details/80626870)  
 [G++常见命令2](https://blog.csdn.net/qq_24283329/article/details/72595386)   
-[某个大佬的编译过程](https://charlottehong.blogspot.com/2018/05/opencv-341-windows10-mingw.html) *真的很感谢这个大佬*
+[某个大佬的编译过程](https://charlottehong.blogspot.com/2018/05/opencv-341-windows10-mingw.html) 真的很感谢这个大佬
 
