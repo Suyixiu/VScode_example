@@ -1,10 +1,10 @@
-# VScode_sample
-其中main.cpp中的东西很简单，include了位于桌面的test文件夹中的test.h  
-然后要想头文件没有绿线的话就要在c_cpp_properties.json中添加你的路径  
-最后的话你的gcc命令要把你的test.h文件I进来然后就可以啦  
+# VScode_sample  
+这就是一个Vscode建立工程的sample吧  
+目前包含4个sample。其中normal，opencv_mingw，pthread都是用mingw的g++或gcc弄的  
 
 ## 此外  
-使用gcc -v -E -x c++ -来看你的MinGW的全部安装目录  
+我使用的是mingw8.1，posix的Threads，如果不是这个的话会很多坑的，真是日了狗了  
+你可以使用gcc -v -E -x c++ -来看你的MinGW的全部安装目录  
 可能用到的链接，非常感谢两位大佬的博客  
 [MinGW.md](https://github.com/Microsoft/vscode-cpptools/blob/8979a6e6b348efd23b97037151d8968915f9fea0/Documentation/LanguageServer/MinGW.md)  
 [G++常用命令1](https://blog.csdn.net/lcuwb/article/details/80626870)  
