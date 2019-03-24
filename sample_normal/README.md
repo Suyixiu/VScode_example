@@ -1,7 +1,6 @@
-# VScode_sample
-其中main.cpp中的东西很简单，include了位于桌面的test文件夹中的test.h  
-然后要想头文件没有绿线的话就要在c_cpp_properties.json中添加你的路径  
-最后的话你的gcc命令要把你的test.h文件I进来然后就可以啦  
+# sample_normal
+很简单的一个小C++代码。只要你g++的shell命令没错然后-I了你的头文件然后也括进了你的各个cpp那你就可以成功编译运行并调试了  
+此外如果你不在c_cpp_properties.json中添加你的头文件的路径呢你会看到烦人的绿色波浪线，所以我老老实实就加了    
 
 ## 此外  
 使用gcc -v -E -x c++ -来看你的MinGW的全部安装目录  
