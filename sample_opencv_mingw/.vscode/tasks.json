@@ -5,9 +5,14 @@
         "-g","main.cpp","-o","${fileBasenameNoExtension}.exe",
         "-I","C:/software/opencv/opencv/build/x64/MinGW/include",           //-I头文件路径
         "-L","C:/software/opencv/opencv/build/x64/MinGW/bin",               //-L动态库
-        "-l","libopencv_core341",                                           //-l静态链接库
-        "-l","libopencv_highgui341",
-        "-l","libopencv_imgproc341"
+        "-l","opencv_aruco341",//-l静态链接库
+        "-l","opencv_core341",
+        "-l","opencv_highgui341",
+        "-l","opencv_imgcodecs341",
+        "-l","opencv_imgproc341",
+        "-l","opencv_video341",
+        "-l","opencv_videoio341",
+        "-l","opencv_xphoto341"
     ],
     "problemMatcher": {
         "owner": "cpp",

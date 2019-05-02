@@ -6,7 +6,7 @@ using namespace std;
 #include <opencv2/imgproc.hpp>
 using namespace cv;
 
-int main(int argc, char const *argv[]) 
+int main(int argc, char const *argv[])
 {
     cout << "=!!===test run is ok===!!=" << endl;
     Mat img(270, 720, CV_8UC3, Scalar(56, 50, 38));

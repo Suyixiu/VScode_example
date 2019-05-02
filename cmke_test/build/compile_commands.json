@@ -1,0 +1,17 @@
+[
+{
+  "directory": "C:/Users/Su/Desktop/VScode/VScode_sample/cmke_test/build",
+  "command": "g++   @CMakeFiles/cmake_test.dir/includes_CXX.rsp -g -fexec-charset=GBK -g   -o CMakeFiles\\cmake_test.dir\\src\\add.cpp.obj -c C:\\Users\\Su\\Desktop\\VScode\\VScode_sample\\cmke_test\\src\\add.cpp",
+  "file": "C:/Users/Su/Desktop/VScode/VScode_sample/cmke_test/src/add.cpp"
+},
+{
+  "directory": "C:/Users/Su/Desktop/VScode/VScode_sample/cmke_test/build",
+  "command": "g++   @CMakeFiles/cmake_test.dir/includes_CXX.rsp -g -fexec-charset=GBK -g   -o CMakeFiles\\cmake_test.dir\\src\\sub.cpp.obj -c C:\\Users\\Su\\Desktop\\VScode\\VScode_sample\\cmke_test\\src\\sub.cpp",
+  "file": "C:/Users/Su/Desktop/VScode/VScode_sample/cmke_test/src/sub.cpp"
+},
+{
+  "directory": "C:/Users/Su/Desktop/VScode/VScode_sample/cmke_test/build",
+  "command": "g++   @CMakeFiles/cmake_test.dir/includes_CXX.rsp -g -fexec-charset=GBK -g   -o CMakeFiles\\cmake_test.dir\\main.cpp.obj -c C:\\Users\\Su\\Desktop\\VScode\\VScode_sample\\cmke_test\\main.cpp",
+  "file": "C:/Users/Su/Desktop/VScode/VScode_sample/cmke_test/main.cpp"
+}
+]
