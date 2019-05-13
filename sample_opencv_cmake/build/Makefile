@@ -79,14 +79,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d c:\Users\Su\Desktop\VScode\VScode_sample\sample_opencv_cmake\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Su\Desktop\VScode\VScode_sample\sample_opencv_cmake\build\CMakeFiles C:\Users\Su\Desktop\VScode\VScode_sample\sample_opencv_cmake\build\CMakeFiles\progress.marks
-	cd /d c:\Users\Su\Desktop\VScode\VScode_sample\sample_opencv_cmake\build && $(MAKE) -f CMakeFiles\Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Su\Desktop\VScode\VScode_sample\sample_opencv_cmake\build\CMakeFiles C:\Users\Su\Desktop\VScode\VScode_sample\sample_opencv_cmake\build\CMakeFiles\progress.marks
+	$(MAKE) -f CMakeFiles\Makefile2 all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Su\Desktop\VScode\VScode_sample\sample_opencv_cmake\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d c:\Users\Su\Desktop\VScode\VScode_sample\sample_opencv_cmake\build && $(MAKE) -f CMakeFiles\Makefile2 clean
+	$(MAKE) -f CMakeFiles\Makefile2 clean
 .PHONY : clean
 
 # The main clean target
@@ -96,17 +96,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d c:\Users\Su\Desktop\VScode\VScode_sample\sample_opencv_cmake\build && $(MAKE) -f CMakeFiles\Makefile2 preinstall
+	$(MAKE) -f CMakeFiles\Makefile2 preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d c:\Users\Su\Desktop\VScode\VScode_sample\sample_opencv_cmake\build && $(MAKE) -f CMakeFiles\Makefile2 preinstall
+	$(MAKE) -f CMakeFiles\Makefile2 preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d c:\Users\Su\Desktop\VScode\VScode_sample\sample_opencv_cmake\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 #=============================================================================
@@ -128,7 +128,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	cd /d c:\Users\Su\Desktop\VScode\VScode_sample\sample_opencv_cmake\build && $(MAKE) -f CMakeFiles\sample_opencv_cmake.dir\build.make CMakeFiles/sample_opencv_cmake.dir/main.cpp.obj
+	$(MAKE) -f CMakeFiles\sample_opencv_cmake.dir\build.make CMakeFiles/sample_opencv_cmake.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -137,7 +137,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /d c:\Users\Su\Desktop\VScode\VScode_sample\sample_opencv_cmake\build && $(MAKE) -f CMakeFiles\sample_opencv_cmake.dir\build.make CMakeFiles/sample_opencv_cmake.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles\sample_opencv_cmake.dir\build.make CMakeFiles/sample_opencv_cmake.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -146,7 +146,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /d c:\Users\Su\Desktop\VScode\VScode_sample\sample_opencv_cmake\build && $(MAKE) -f CMakeFiles\sample_opencv_cmake.dir\build.make CMakeFiles/sample_opencv_cmake.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles\sample_opencv_cmake.dir\build.make CMakeFiles/sample_opencv_cmake.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
