@@ -1,4 +1,4 @@
 ﻿@echo off
 cd .\build
-cmake -G "MinGW Makefiles" .. > TriffleInfo
+cmake -G "MinGW Makefiles" ..
 make

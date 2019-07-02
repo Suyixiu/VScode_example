@@ -1,7 +1,8 @@
 cmake_minimum_required (VERSION 3.0.0)
 
 # 输出
-message("this is a simple output for cmake")
+set(message_show "this is a simple output for cmake")
+message(${message_show})
 
 # 工程名字
 project(cmake_test)

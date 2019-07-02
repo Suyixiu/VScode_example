@@ -60,43 +60,43 @@ CMakeFiles/cmake_test.dir/src/add.cpp.obj: CMakeFiles/cmake_test.dir/flags.make
 CMakeFiles/cmake_test.dir/src/add.cpp.obj: CMakeFiles/cmake_test.dir/includes_CXX.rsp
 CMakeFiles/cmake_test.dir/src/add.cpp.obj: ../src/add.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cmake_test.dir/src/add.cpp.obj"
-	cd /d C:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\build && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cmake_test.dir\src\add.cpp.obj -c C:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\src\add.cpp
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cmake_test.dir\src\add.cpp.obj -c C:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\src\add.cpp
 
 CMakeFiles/cmake_test.dir/src/add.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmake_test.dir/src/add.cpp.i"
-	cd /d C:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\build && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\src\add.cpp > CMakeFiles\cmake_test.dir\src\add.cpp.i
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\src\add.cpp > CMakeFiles\cmake_test.dir\src\add.cpp.i
 
 CMakeFiles/cmake_test.dir/src/add.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmake_test.dir/src/add.cpp.s"
-	cd /d C:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\build && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\src\add.cpp -o CMakeFiles\cmake_test.dir\src\add.cpp.s
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\src\add.cpp -o CMakeFiles\cmake_test.dir\src\add.cpp.s
 
 CMakeFiles/cmake_test.dir/src/sub.cpp.obj: CMakeFiles/cmake_test.dir/flags.make
 CMakeFiles/cmake_test.dir/src/sub.cpp.obj: CMakeFiles/cmake_test.dir/includes_CXX.rsp
 CMakeFiles/cmake_test.dir/src/sub.cpp.obj: ../src/sub.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cmake_test.dir/src/sub.cpp.obj"
-	cd /d C:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\build && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cmake_test.dir\src\sub.cpp.obj -c C:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\src\sub.cpp
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cmake_test.dir\src\sub.cpp.obj -c C:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\src\sub.cpp
 
 CMakeFiles/cmake_test.dir/src/sub.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmake_test.dir/src/sub.cpp.i"
-	cd /d C:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\build && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\src\sub.cpp > CMakeFiles\cmake_test.dir\src\sub.cpp.i
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\src\sub.cpp > CMakeFiles\cmake_test.dir\src\sub.cpp.i
 
 CMakeFiles/cmake_test.dir/src/sub.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmake_test.dir/src/sub.cpp.s"
-	cd /d C:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\build && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\src\sub.cpp -o CMakeFiles\cmake_test.dir\src\sub.cpp.s
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\src\sub.cpp -o CMakeFiles\cmake_test.dir\src\sub.cpp.s
 
 CMakeFiles/cmake_test.dir/main.cpp.obj: CMakeFiles/cmake_test.dir/flags.make
 CMakeFiles/cmake_test.dir/main.cpp.obj: CMakeFiles/cmake_test.dir/includes_CXX.rsp
 CMakeFiles/cmake_test.dir/main.cpp.obj: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cmake_test.dir/main.cpp.obj"
-	cd /d C:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\build && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cmake_test.dir\main.cpp.obj -c C:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\main.cpp
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cmake_test.dir\main.cpp.obj -c C:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\main.cpp
 
 CMakeFiles/cmake_test.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmake_test.dir/main.cpp.i"
-	cd /d C:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\build && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\main.cpp > CMakeFiles\cmake_test.dir\main.cpp.i
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\main.cpp > CMakeFiles\cmake_test.dir\main.cpp.i
 
 CMakeFiles/cmake_test.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmake_test.dir/main.cpp.s"
-	cd /d C:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\build && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\main.cpp -o CMakeFiles\cmake_test.dir\main.cpp.s
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\main.cpp -o CMakeFiles\cmake_test.dir\main.cpp.s
 
 # Object files for target cmake_test
 cmake_test_OBJECTS = \
@@ -115,7 +115,7 @@ cmake_test_EXTERNAL_OBJECTS =
 ../Bin/cmake_test.exe: CMakeFiles/cmake_test.dir/objects1.rsp
 ../Bin/cmake_test.exe: CMakeFiles/cmake_test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ..\Bin\cmake_test.exe"
-	cd /d C:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\build && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\cmake_test.dir\link.txt --verbose=$(VERBOSE)
+	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\cmake_test.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 CMakeFiles/cmake_test.dir/build: ../Bin/cmake_test.exe
@@ -123,7 +123,7 @@ CMakeFiles/cmake_test.dir/build: ../Bin/cmake_test.exe
 .PHONY : CMakeFiles/cmake_test.dir/build
 
 CMakeFiles/cmake_test.dir/clean:
-	cd /d C:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\build && $(CMAKE_COMMAND) -P CMakeFiles\cmake_test.dir\cmake_clean.cmake
+	$(CMAKE_COMMAND) -P CMakeFiles\cmake_test.dir\cmake_clean.cmake
 .PHONY : CMakeFiles/cmake_test.dir/clean
 
 CMakeFiles/cmake_test.dir/depend:

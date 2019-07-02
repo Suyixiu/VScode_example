@@ -79,14 +79,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d c:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\build\CMakeFiles C:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\build\CMakeFiles\progress.marks
-	cd /d c:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\build && $(MAKE) -f CMakeFiles\Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\build\CMakeFiles C:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\build\CMakeFiles\progress.marks
+	$(MAKE) -f CMakeFiles\Makefile2 all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d c:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\build && $(MAKE) -f CMakeFiles\Makefile2 clean
+	$(MAKE) -f CMakeFiles\Makefile2 clean
 .PHONY : clean
 
 # The main clean target
@@ -96,17 +96,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d c:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\build && $(MAKE) -f CMakeFiles\Makefile2 preinstall
+	$(MAKE) -f CMakeFiles\Makefile2 preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d c:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\build && $(MAKE) -f CMakeFiles\Makefile2 preinstall
+	$(MAKE) -f CMakeFiles\Makefile2 preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d c:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 #=============================================================================
@@ -128,7 +128,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	cd /d c:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\build && $(MAKE) -f CMakeFiles\cmake_test.dir\build.make CMakeFiles/cmake_test.dir/main.cpp.obj
+	$(MAKE) -f CMakeFiles\cmake_test.dir\build.make CMakeFiles/cmake_test.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -137,7 +137,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /d c:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\build && $(MAKE) -f CMakeFiles\cmake_test.dir\build.make CMakeFiles/cmake_test.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles\cmake_test.dir\build.make CMakeFiles/cmake_test.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -146,7 +146,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /d c:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\build && $(MAKE) -f CMakeFiles\cmake_test.dir\build.make CMakeFiles/cmake_test.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles\cmake_test.dir\build.make CMakeFiles/cmake_test.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 src/add.obj: src/add.cpp.obj
@@ -155,7 +155,7 @@ src/add.obj: src/add.cpp.obj
 
 # target to build an object file
 src/add.cpp.obj:
-	cd /d c:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\build && $(MAKE) -f CMakeFiles\cmake_test.dir\build.make CMakeFiles/cmake_test.dir/src/add.cpp.obj
+	$(MAKE) -f CMakeFiles\cmake_test.dir\build.make CMakeFiles/cmake_test.dir/src/add.cpp.obj
 .PHONY : src/add.cpp.obj
 
 src/add.i: src/add.cpp.i
@@ -164,7 +164,7 @@ src/add.i: src/add.cpp.i
 
 # target to preprocess a source file
 src/add.cpp.i:
-	cd /d c:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\build && $(MAKE) -f CMakeFiles\cmake_test.dir\build.make CMakeFiles/cmake_test.dir/src/add.cpp.i
+	$(MAKE) -f CMakeFiles\cmake_test.dir\build.make CMakeFiles/cmake_test.dir/src/add.cpp.i
 .PHONY : src/add.cpp.i
 
 src/add.s: src/add.cpp.s
@@ -173,7 +173,7 @@ src/add.s: src/add.cpp.s
 
 # target to generate assembly for a file
 src/add.cpp.s:
-	cd /d c:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\build && $(MAKE) -f CMakeFiles\cmake_test.dir\build.make CMakeFiles/cmake_test.dir/src/add.cpp.s
+	$(MAKE) -f CMakeFiles\cmake_test.dir\build.make CMakeFiles/cmake_test.dir/src/add.cpp.s
 .PHONY : src/add.cpp.s
 
 src/sub.obj: src/sub.cpp.obj
@@ -182,7 +182,7 @@ src/sub.obj: src/sub.cpp.obj
 
 # target to build an object file
 src/sub.cpp.obj:
-	cd /d c:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\build && $(MAKE) -f CMakeFiles\cmake_test.dir\build.make CMakeFiles/cmake_test.dir/src/sub.cpp.obj
+	$(MAKE) -f CMakeFiles\cmake_test.dir\build.make CMakeFiles/cmake_test.dir/src/sub.cpp.obj
 .PHONY : src/sub.cpp.obj
 
 src/sub.i: src/sub.cpp.i
@@ -191,7 +191,7 @@ src/sub.i: src/sub.cpp.i
 
 # target to preprocess a source file
 src/sub.cpp.i:
-	cd /d c:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\build && $(MAKE) -f CMakeFiles\cmake_test.dir\build.make CMakeFiles/cmake_test.dir/src/sub.cpp.i
+	$(MAKE) -f CMakeFiles\cmake_test.dir\build.make CMakeFiles/cmake_test.dir/src/sub.cpp.i
 .PHONY : src/sub.cpp.i
 
 src/sub.s: src/sub.cpp.s
@@ -200,7 +200,7 @@ src/sub.s: src/sub.cpp.s
 
 # target to generate assembly for a file
 src/sub.cpp.s:
-	cd /d c:\Users\Su\Desktop\VScode\VScode_sample\cmke_test\build && $(MAKE) -f CMakeFiles\cmake_test.dir\build.make CMakeFiles/cmake_test.dir/src/sub.cpp.s
+	$(MAKE) -f CMakeFiles\cmake_test.dir\build.make CMakeFiles/cmake_test.dir/src/sub.cpp.s
 .PHONY : src/sub.cpp.s
 
 # Help Target

@@ -6,8 +6,8 @@
         "-o","${fileBasenameNoExtension}.exe",
         "-I","${workspaceFolder}/inc",                                              //-I头文件路径
         "-I","${workspaceFolder}/load_h",
-        "-L","${workspaceFolder}/load_dll",                                         //-L动态库
-        "-lpthreadVC2"                                                              //-l静态链接库
+        "-L","${workspaceFolder}/load_dll",                                         //-L库路径
+        "-lpthreadVC2"                                                              //-l链接库
         ],
     "problemMatcher": {
         "owner": "cpp",

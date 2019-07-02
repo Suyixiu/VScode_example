@@ -4,8 +4,8 @@
     "args": [ // 编译命令参数
         "-g","main.cpp","-o","${fileBasenameNoExtension}.exe",
         "-I","C:/software/opencv/opencv/build/x64/MinGW/include",           //-I头文件路径
-        "-L","C:/software/opencv/opencv/build/x64/MinGW/bin",               //-L动态库
-        "-l","opencv_aruco341",//-l静态链接库
+        "-L","C:/software/opencv/opencv/build/x64/MinGW/bin",               //-L库路径
+        "-l","opencv_aruco341",                                             //-l链接库
         "-l","opencv_core341",
         "-l","opencv_highgui341",
         "-l","opencv_imgcodecs341",
