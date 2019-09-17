@@ -9,8 +9,14 @@ project(sample_opencv_cmake)
 set(CMAKE_CXX_COMPILER "g++")
 set (CMAKE_CXX_FLAGS  "-g -fexec-charset=GBK")
 
+##### set一个XXX_DIR告诉CMake去哪里找XXXConfig.cmake这个东西 #####
 set(OpenCV_DIR C:/software/opencv/opencv/build/x64/MinGW/lib)
 find_package( OpenCV REQUIRED )
+
+# message(STATUS "OpenCV library status:")
+# message(STATUS "version: ${OpenCV_VERSION}")
+# message(STATUS "libraries: ${OpenCV_LIBS}")
+# message(STATUS "include path: ${OpenCV_INCLUDE_DIRS}")
 
 # 头文件
 include_directories( ${OpenCV_INCLUDE_DIRS} )
