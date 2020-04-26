@@ -1,0 +1,66 @@
+{
+    "version": "2.0.0",
+    "command": "g++",
+    "args": [ // 编译命令参数
+        "-g","opencv_sample.cpp","-o","${fileBasenameNoExtension}.exe",
+        "-I","C:/software/opencv/opencv/build/x64/MinGW/include", //-I头文件路径
+        "-L","C:/software/opencv/opencv/build/x64/MinGW/bin", //-L动态库
+
+        "-l","opencv_aruco341",//-l静态链接库
+        "-l","opencv_bgsegm341",
+        "-l","opencv_bioinspired341",
+        "-l","opencv_calib3d341",
+        "-l","opencv_ccalib341",
+        "-l","opencv_core341",
+        "-l","opencv_datasets341",
+        "-l","opencv_dpm341",
+        "-l","opencv_face341",
+        "-l","opencv_features2d341",
+        "-l","opencv_flann341",
+        "-l","opencv_fuzzy341",
+        "-l","opencv_hfs341",
+        "-l","opencv_highgui341",
+        "-l","opencv_img_hash341",
+        "-l","opencv_imgcodecs341",
+        "-l","opencv_imgproc341",
+        "-l","opencv_line_descriptor341",
+        "-l","opencv_ml341",
+        "-l","opencv_objdetect341",
+        "-l","opencv_optflow341",
+        "-l","opencv_phase_unwrapping341",
+        "-l","opencv_photo341",
+        "-l","opencv_plot341",
+        "-l","opencv_reg341",
+        "-l","opencv_rgbd341",
+        "-l","opencv_saliency341",
+        "-l","opencv_shape341",
+        "-l","opencv_stereo341",
+        "-l","opencv_stitching341",
+        "-l","opencv_structured_light341",
+        "-l","opencv_superres341",
+        "-l","opencv_surface_matching341",
+        "-l","opencv_tracking341",
+        "-l","opencv_video341",
+        "-l","opencv_videoio341",
+        "-l","opencv_videostab341",
+        "-l","opencv_xfeatures2d341",
+        "-l","opencv_ximgproc341",
+        "-l","opencv_xobjdetect341",
+        "-l","opencv_xphoto341"
+    ],
+    "problemMatcher": {
+        "owner": "cpp",
+        "fileLocation": [
+            "relative",
+            "${workspaceRoot}"
+        ],
+        "pattern": {
+            "regexp": "^(.*):(//d+):(//d+)://s+(warning|error)://s+(.*)$",
+            "file": 1,
+            "line": 2,
+            "column": 3,
+            "severity": 4,
+            "message": 5
+        }
+    }
+}

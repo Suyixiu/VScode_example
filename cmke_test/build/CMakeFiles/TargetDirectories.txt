@@ -1,3 +1,0 @@
-C:/Users/Su/Desktop/VScode/VScode_sample/cmke_test/build/CMakeFiles/rebuild_cache.dir
-C:/Users/Su/Desktop/VScode/VScode_sample/cmke_test/build/CMakeFiles/cmake_test.dir
-C:/Users/Su/Desktop/VScode/VScode_sample/cmke_test/build/CMakeFiles/edit_cache.dir

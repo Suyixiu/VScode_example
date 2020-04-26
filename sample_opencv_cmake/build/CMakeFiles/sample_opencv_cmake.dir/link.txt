@@ -1,3 +1,0 @@
-C:\software\CMake\bin\cmake.exe -E remove -f CMakeFiles\sample_opencv_cmake.dir/objects.a
-C:\software\MinGW\mingw64\bin\ar.exe cr CMakeFiles\sample_opencv_cmake.dir/objects.a @CMakeFiles\sample_opencv_cmake.dir\objects1.rsp
-g++ -g -fexec-charset=GBK -g   -Wl,--whole-archive CMakeFiles\sample_opencv_cmake.dir/objects.a -Wl,--no-whole-archive  -o ..\Bin\sample_opencv_cmake.exe -Wl,--out-implib,..\Bin\libsample_opencv_cmake.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\sample_opencv_cmake.dir\linklibs.rsp

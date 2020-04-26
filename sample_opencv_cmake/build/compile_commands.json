@@ -1,7 +1,0 @@
-[
-{
-  "directory": "C:/Users/Su/Desktop/VScode/VScode_sample/sample_opencv_cmake/build",
-  "command": "g++   @CMakeFiles/sample_opencv_cmake.dir/includes_CXX.rsp -g -fexec-charset=GBK -g   -o CMakeFiles\\sample_opencv_cmake.dir\\main.cpp.obj -c C:\\Users\\Su\\Desktop\\VScode\\VScode_sample\\sample_opencv_cmake\\main.cpp",
-  "file": "C:/Users/Su/Desktop/VScode/VScode_sample/sample_opencv_cmake/main.cpp"
-}
-]

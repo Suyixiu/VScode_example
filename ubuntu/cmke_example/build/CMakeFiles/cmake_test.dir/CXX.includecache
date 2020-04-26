@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../inc/add.h
+
+../inc/sub.h
+
+C:/Users/Suyixiu/Desktop/vscode/VScode_exsample/cmke_example/main.cpp
+iostream
+-
+add.h
+C:/Users/Suyixiu/Desktop/vscode/VScode_exsample/cmke_example/add.h
+sub.h
+C:/Users/Suyixiu/Desktop/vscode/VScode_exsample/cmke_example/sub.h
+
+C:/Users/Suyixiu/Desktop/vscode/VScode_exsample/cmke_example/src/add.cpp
+add.h
+C:/Users/Suyixiu/Desktop/vscode/VScode_exsample/cmke_example/src/add.h
+
+C:/Users/Suyixiu/Desktop/vscode/VScode_exsample/cmke_example/src/sub.cpp
+sub.h
+C:/Users/Suyixiu/Desktop/vscode/VScode_exsample/cmke_example/src/sub.h
+
