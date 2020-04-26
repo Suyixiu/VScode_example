@@ -1,0 +1,46 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/suyixiu/catkin_ws/src/yixiuge_ur/recognize_and_grasp/inc/**",
+                "/home/suyixiu/catkin_ws/devel/include/**",
+                "/opt/ros/kinetic/include/**",
+                "/home/suyixiu/catkin_ws/src/aruco_ros/aruco/include/**",
+                "/home/suyixiu/catkin_ws/src/aruco_ros/aruco_ros/include/**",
+                "/home/suyixiu/catkin_ws/src/learning_ros/Part_1/creating_a_ros_library/include/**",
+                "/home/suyixiu/catkin_ws/src/learning_ros/Part_4/example_nav_plugin/include/**",
+                "/home/suyixiu/catkin_ws/src/gazebo-pkgs/gazebo_grasp_plugin/include/**",
+                "/home/suyixiu/catkin_ws/src/gazebo_ros_pkgs/gazebo_ros/include/**",
+                "/home/suyixiu/catkin_ws/src/gazebo-pkgs/gazebo_state_plugins/include/**",
+                "/home/suyixiu/catkin_ws/src/gazebo-pkgs/gazebo_test_tools/include/**",
+                "/home/suyixiu/catkin_ws/src/gazebo-pkgs/gazebo_version_helpers/include/**",
+                "/home/suyixiu/catkin_ws/src/gazebo-pkgs/gazebo_world_plugin_loader/include/**",
+                "/home/suyixiu/catkin_ws/src/iai_kinect2/kinect2_bridge/include/**",
+                "/home/suyixiu/catkin_ws/src/iai_kinect2/kinect2_calibration/include/**",
+                "/home/suyixiu/catkin_ws/src/iai_kinect2/kinect2_registration/include/**",
+                "/home/suyixiu/catkin_ws/src/general-message-pkgs/object_msgs_tools/include/**",
+                "/home/suyixiu/catkin_ws/src/learning_ros/Part_4/odom_tf/include/**",
+                "/home/suyixiu/catkin_ws/src/learning_ros/Part_3/pcl_utils/include/**",
+                "/home/suyixiu/catkin_ws/src/robotiq_85_gripper/robotiq_85_simulation/roboticsgroup_gazebo_plugins/include/**",
+                "/home/suyixiu/catkin_ws/src/learning_ros/Part_4/test_plugin/include/**",
+                "/home/suyixiu/catkin_ws/src/learning_ros/Part_4/traj_builder/include/**",
+                "/home/suyixiu/catkin_ws/src/turtlesim_dynamic/include/**",
+                "/home/suyixiu/catkin_ws/src/universal_robot/ur_kinematics/include/**",
+                "/home/suyixiu/catkin_ws/src/ur_modern_driver/include/**",
+                "/home/suyixiu/catkin_ws/src/vision_visp/visp_bridge/include/**",
+                "/home/suyixiu/catkin_ws/src/learning_ros/Part_2/xform_utils/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
