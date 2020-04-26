@@ -3,8 +3,8 @@
     "command": "g++",
     "args": [                                                          // 编译命令参数
         "-g",
-        "main.cpp","${workspaceFolder}/src/*.cpp",
-        "-o","${fileBasenameNoExtension}.exe",
+        "main.cpp","${workspaceFolder}/src/add.cpp","${workspaceFolder}/src/sub.cpp",
+        "-o","${fileBasenameNoExtension}",
         "-I","${workspaceFolder}/inc"                                  //-I是头文件路径
         ],
     "problemMatcher": {

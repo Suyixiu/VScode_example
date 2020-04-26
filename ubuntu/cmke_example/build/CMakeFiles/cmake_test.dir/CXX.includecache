@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -10,19 +10,19 @@
 
 ../inc/sub.h
 
-C:/Users/Suyixiu/Desktop/vscode/VScode_exsample/cmke_example/main.cpp
+/home/suyixiu/VScode/VScode_example/ubuntu/cmke_example/main.cpp
 iostream
 -
 add.h
-C:/Users/Suyixiu/Desktop/vscode/VScode_exsample/cmke_example/add.h
+/home/suyixiu/VScode/VScode_example/ubuntu/cmke_example/add.h
 sub.h
-C:/Users/Suyixiu/Desktop/vscode/VScode_exsample/cmke_example/sub.h
+/home/suyixiu/VScode/VScode_example/ubuntu/cmke_example/sub.h
 
-C:/Users/Suyixiu/Desktop/vscode/VScode_exsample/cmke_example/src/add.cpp
+/home/suyixiu/VScode/VScode_example/ubuntu/cmke_example/src/add.cpp
 add.h
-C:/Users/Suyixiu/Desktop/vscode/VScode_exsample/cmke_example/src/add.h
+/home/suyixiu/VScode/VScode_example/ubuntu/cmke_example/src/add.h
 
-C:/Users/Suyixiu/Desktop/vscode/VScode_exsample/cmke_example/src/sub.cpp
+/home/suyixiu/VScode/VScode_example/ubuntu/cmke_example/src/sub.cpp
 sub.h
-C:/Users/Suyixiu/Desktop/vscode/VScode_exsample/cmke_example/src/sub.h
+/home/suyixiu/VScode/VScode_example/ubuntu/cmke_example/src/sub.h
 

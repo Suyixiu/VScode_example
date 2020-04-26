@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/sample_opencv_cmake.dir/main.cpp.obj"
+  "CMakeFiles/sample_opencv_cmake.dir/main.cpp.o"
   "../Bin/sample_opencv_cmake.pdb"
-  "../Bin/sample_opencv_cmake.exe"
-  "../Bin/sample_opencv_cmake.exe.manifest"
-  "../Bin/libsample_opencv_cmake.dll.a"
+  "../Bin/sample_opencv_cmake"
 )
 
 # Per-language clean rules from dependency scanning.

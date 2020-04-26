@@ -1,0 +1,7 @@
+/home/suyixiu/test/pcl_show_a_pcd/build/CMakeFiles/install.dir
+/home/suyixiu/test/pcl_show_a_pcd/build/CMakeFiles/list_install_components.dir
+/home/suyixiu/test/pcl_show_a_pcd/build/CMakeFiles/rebuild_cache.dir
+/home/suyixiu/test/pcl_show_a_pcd/build/CMakeFiles/pcl_show_a_pcd.dir
+/home/suyixiu/test/pcl_show_a_pcd/build/CMakeFiles/install/strip.dir
+/home/suyixiu/test/pcl_show_a_pcd/build/CMakeFiles/install/local.dir
+/home/suyixiu/test/pcl_show_a_pcd/build/CMakeFiles/edit_cache.dir

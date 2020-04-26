@@ -5,35 +5,37 @@
             "intelliSenseMode": "gcc-x64",
             "includePath": [
                 "${workspaceFolder}",
-                "C:/software/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++",
-                "C:/software/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32",
-                "C:/software/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward",
-                "C:/software/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include",
-                "C:/software/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed",
-                "C:/software/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include",
-                "C:/software/opencv/opencv/build/x64/MinGW/include"
+                "/usr/include/c++/5",
+                "/usr/include/x86_64-linux-gnu/c++/5",
+                "/usr/include/c++/5/backward",
+                "/usr/lib/gcc/x86_64-linux-gnu/5/include",
+                "/usr/local/",
+                "/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed",
+                "/usr/include/x86_64-linux-gnu",
+                "/usr/include"
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
-                "__GNUC__=8",
+                "__GNUC__=5",
                 "__cdecl=__attribute__((__cdecl__))"
             ],
             "browse": {
                 "path": [
                     "${workspaceFolder}",
-                    "C:/software/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++",
-                    "C:/software/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32",
-                    "C:/software/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward",
-                    "C:/software/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include",
-                    "C:/software/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed",
-                    "C:/software/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include",
-                    "C:/software/opencv/opencv/build/x64/MinGW/include"
+                    "/usr/include/c++/5",
+                    "/usr/include/x86_64-linux-gnu/c++/5",
+                    "/usr/include/c++/5/backward",
+                    "/usr/lib/gcc/x86_64-linux-gnu/5/include",
+                    "/usr/local/",
+                    "/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed",
+                    "/usr/include/x86_64-linux-gnu",
+                    "/usr/include"
                 ],
                 "limitSymbolsToIncludedHeaders": true,
                 "databaseFilename": ""
             },
-            "compilerPath": "C://software//MinGW//mingw64//bin//gcc.exe",
+            "compilerPath": "/usr/bin/gcc",
             "cStandard": "c11",
             "cppStandard": "c++17"
         }

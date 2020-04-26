@@ -56,7 +56,7 @@ void mouse_callback(int event, int x, int y, int flags, void *mat)
 		Mat img = (*(Mat *)mat).clone(); //创建一个img为传入参数的clone 可使得在img上画图不影响原来的图
 		Point pt = Point(x, y);
 		char text[16];
-		sprintf_s(text, "(%d,%d)", x, y);
+		sprintf(text, "(%d,%d)", x, y);
 		putText(img, text, pt, CV_FONT_HERSHEY_COMPLEX, 0.5, Scalar(255, 0, 255), 1); //在图片上显示文字
 		printf("x=%d\ty=%d\t", x, y);												  //打印各种信息
 		printf("b=%d\t", img.at<Vec3b>(pt)[0]);
@@ -196,7 +196,7 @@ int main()
 	points.push_back(Point(530, 116));
 	points.push_back(Point(612, 136));
 	polylines(img_temp, points, true, Scalar(0, 255, 255), 2);		//绘制多边形轮廓 points是一个point的vector 接着是否是闭合 颜色 粗细
-	vector<vector<Point>> vpoints;
+	vector<vector<Point> > vpoints;
 	vpoints.push_back(points);
 	fillPoly(img_temp, vpoints, Scalar(100, 168, 247), 8, 0);		//填充这一块多边形 第二个参数是个二维的vector的vector
 	imshow("show", img_temp);
